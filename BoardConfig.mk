@@ -49,6 +49,7 @@ TARGET_FS_CONFIG_GEN := \
 
 # TODO: Add GPS
 
+
 # HIDL TODO: Add more sections here
 ODM_MANIFEST_SKUS += b f
 ODM_MANIFEST_B_FILES := $(DEVICE_PATH)/sku/manifest_b.xml
@@ -87,7 +88,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Recovery
 TARGET_RECOVERY_DENSITY := hdpi
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/fstab.mt6765
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 70
 
 # Sepolicy

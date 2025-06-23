@@ -1,0 +1,2 @@
+# Fstab
+vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765

@@ -55,8 +55,7 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
-
+    $(LOCAL_PATH)/fstab.mt6765:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6765
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
