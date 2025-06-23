@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_device_motorola_mt6765h",
+    "target_path": "kernel/motorola/mt6765h"
+  }
+]
