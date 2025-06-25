@@ -44,8 +44,7 @@ TARGET_SCREEN_DENSITY := 270
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := \
-    $(COMMON_PATH)/config.fs \
-    $(COMMON_PATH)/mot_aids.fs
+    $(DEVICE_PATH)/mke2fs.conf
 
 # TODO: Add GPS
 

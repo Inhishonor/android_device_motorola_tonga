@@ -1,2 +1,5 @@
 # Fstab
 vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765
+
+# Filesystem
+bootimg/ramdisk/system/etc/mke2fs.conf 
