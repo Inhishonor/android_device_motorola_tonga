@@ -39,9 +39,15 @@ TARGET_FS_CONFIG_GEN := \
 
 # TODO: Add GPS
 
-# Kernel TODO: Add other kernel configs and modules
+# Kernel
 BOARD_BOOT_HEADER_VERSION := 2
-TARGET_KERNEL_CONFIG += vendor/ext_config/tonga-default.config
+BOARD_KERNEL_SEPARATED_DTBO := true
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+BOARD_KERNEL_BASE := 0x00000000
+BOARD_KERNEL_IMAGE_NAME := Image
+BOARD_KERNEL_PAGESIZE := 4096
+TARGET_KERNEL_CONFIG += kernel/motorola/mt6765/arch/arm64/configs/defconfig
+TARGET_KERNEL_SOURCE := kernel/motorola/mt6765
 
 # Kernel Modules - Recovery
 BOARD_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
