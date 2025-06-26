@@ -1,5 +1,17 @@
 [
   {
+    "repository": "android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
+    "repository": "android_hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  },
+  {
+    "repository": "android_hardware_motorola",
+    "target_path": "hardware/motorola"
+  },
+  {
     "repository": "android_device_motorola_mt6765h",
     "target_path": "kernel/motorola/mt6765h"
   }
