@@ -68,6 +68,7 @@ TARGET_BOARD_PLATFORM := mt6765
 BOARD_HAS_MTK_HARDWARE := true
 
 # Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Power
